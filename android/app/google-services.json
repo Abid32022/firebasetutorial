@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268365844337",
+    "project_id": "thestart-b6d85",
+    "storage_bucket": "thestart-b6d85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268365844337:android:124fe6083b1e4df70af0d0",
+        "android_client_info": {
+          "package_name": "com.example.start"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268365844337-su5vpdc30uul9rci8a2fq7mka9scn2rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiAn9jZkqL11_-wliC1g6tNIOSW2_MjLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268365844337-su5vpdc30uul9rci8a2fq7mka9scn2rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
