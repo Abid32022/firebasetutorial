@@ -389,7 +389,7 @@ class _FollowButtonState extends State<FollowButton> {
           'notification': <String, dynamic>{
             'title': 'New Follower',
             'body':
-                'You have a new follower: $followerName',
+                ' $followerName had Followed you',
             'click_action': 'FLUTTER_NOTIFICATION_CLICK',
           },
           'priority': 'high',

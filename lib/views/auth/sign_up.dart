@@ -153,7 +153,6 @@ class _SignUpState extends State<SignUp> {
                       }
                       return null;
                     },
-
                   ),
                 ),
                 SizedBox(height: 20,),
@@ -179,11 +178,8 @@ class _SignUpState extends State<SignUp> {
                       if(!input.isEmail){
                         return 'Invalid email';
                       }
-
                       return null;
                     },
-
-
                   ),
                 ),
                 SizedBox(height: 20,),
@@ -215,24 +211,9 @@ class _SignUpState extends State<SignUp> {
                 },
                   ),
                 ),
+
                 SizedBox(height: 50,),
-                // GestureDetector(
-                //   onTap: (){
-                //     setState(() {
-                //     //  validateMyInputs();
-                //     });
-                //   },
-                //   child: Container(
-                //     height: 50,
-                //     color: Colors.red,
-                //     width: 300,
-                //     child: Center(
-                //       child: isloading ? CircularProgressIndicator(): Text("Next",style: TextStyle(fontWeight: FontWeight.w600,
-                //           fontSize: 16,color: Colors.white),),
-                //
-                //     ),
-                //   ),
-                // ),
+
                 custombutton2(text: "Next",fontColor: Colors.white,fontWeight: FontWeight.w700,
                     ontap: (){
                   validateMyInputs();
